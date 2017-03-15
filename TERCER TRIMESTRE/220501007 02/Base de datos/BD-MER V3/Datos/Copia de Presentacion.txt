@@ -1,0 +1,9 @@
+idPresentacion, Nombre
+1, Excelso Pepa 500gr
+2, Excelso Molido 500gr
+3, Excelso Molido 250gr
+4, Excelso Molido 125gr
+5, Institucional 500gr
+6, Institucional 250gr
+7, Institucional 125gr
+8, Institucional 50gr

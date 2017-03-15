@@ -1,0 +1,3 @@
+clasificacion, Fechaingreso, Cantmateriaprima,Costo,idproveedor
+Excelso, 2017-01-25, 425kg, 3'250.000, 5
+Pasilla, 2017-01-22, 521kg, 3'800.000, 2

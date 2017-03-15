@@ -1,0 +1,29 @@
+body {font: 13px/1.6 tahoma, sans-serif background-color:#;}
+body {background-image: url(miguel.jpg);}
+/*ORDENAR DATOS*/
+label { display: block; margin: .5em 000 arial:150%;}
+/*RESALTAR ENTRADAS*/
+input:focus {border: 2px solid #E6B700}
+input {border:1px solid black; border-radius: 3px}
+/*RESALTAR CADA PARTE*/
+li:hover {background-color:#7B664D}
+/*PARA MARCO DE FORMULARIO*/
+#contenedor { background: #FFF; border: 0px solid silver; margin: 1em auto; padding: 1em; width: 768px;
+	opacity:0.8; border-radius: 15px;}
+span.requerido { font-size: 1.3em; font-weight: bold; color: #C00;}
+
+/*AYUDAS AL PASAR EL CURSOR*/
+ul li p.ayuda {display: none;}
+ul li { position: relative;}
+ul li:hover p.ayuda {display: block;margin: 0.3em;position: absolute;top: 0;right: 0;width: 150px; }
+
+/*TAMAÑO LETRA DE LOS LABEL*/
+ul li div span label {display: block;font: normal 0.7em arial, sans-serif;color: #333;}
+/*TAMAÑO DE SUBTITULOS*/
+#titulo {display: block;font: normal 1.3em arial, sans-serif; color: #333}
+/*BORDE DE ENTRADAS VALIDOS DATOS O invalidados*/
+input:required:invalid {border: 1px solid black;}
+input:required:valid {border: 1px solid green;}
+
+b {font-family: 13px; font-size:}
+select#tipo{width: 150px border-radius: 10px;}

@@ -1,0 +1,26 @@
+body {font: 12px/1.6 ; background-image: url(miguel.jpg);}
+body {background-image:  url(miguel.jpg);}
+/*ORDENAR DATOS*/
+input:focus{border: 2px solid #E6B700}
+label { display: block; margin: .20em 000}
+/*RESALTAR ENTRADAS*/
+input
+{
+	border-radius: 4PX;
+}
+/*RESALTAR CADA PARTE*/
+li:hover {background-color: #7B664D}
+/*PARA MARCO DE FORMULARIO*/
+#contenedor {border-radius: 4px; background: #FFF; border: 4px solid silver; margin: 1em auto; padding: 1em; width: 768px; opacity: 0.8;}
+/*ASTERISCOS*/
+span.requerido { font-size: 1.3em; font-weight: bold; color: #C00;}
+
+/*AYUDAS AL PASAR EL CURSOR*/
+ul li p.ayuda {display: none;}
+ul li { position: relative;}
+ul li:hover p.ayuda {display: block;margin: 0.3em;position: absolute;top: 0;right: 0;width: 150px; }
+
+ul li div span label {display: block;font: normal 0.7em "arial black", sans-serif;color: #333;}
+button
+{
+ border-radius: 4px;

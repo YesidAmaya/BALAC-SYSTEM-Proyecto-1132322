@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>PROVEEDOR </title>
+    <hr>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="proveedors.css">
+    <style type="text/css"> </style>
+</head>
+<body>
+  <div id="contenedor">
+     <h2><b>REGISTRO DE PROVEEDORES</b></h2>
+<form method="post" action="#">
+      <ul>
+      <li class="izquierda">
+       <label class="titulo" id="titulo" for="nombre"><b>DATOS BASICOS PROVEEDOR</b><span class="requerido">  </span></label> <BR>
+     <div>
+          <span>
+              <input id="nombre" name="nombre" class="requiret" placeholder="Nombres completos" required=""/>  <br><br>
+             
+          </span>
+          <span>
+               <input id="apellido1" name="apellido1" placeholder="Apellidos completos" required="" />
+              <br>
+          </span><br>
+          <span>
+                <select name="Tipo de documento">
+                  <option value="seleccione"><b>Tipo de documento</b></option>
+                  <option value="Tarjeta de identidad"><b>Tarjeta de identidad</b>
+                  <option value="Cedula de ciudadania"><b>Cedula de ciudadania</b></option>
+                  <option value="Cedula extranjera"><b>Cedula extranjera</option>
+                </select><br>
+          </span><br>
+          <span>
+           <b><input type="number" name="apellido2" value="" required="" placeholder="Número de documento" />
+           </b>
+           <label for=""></label></span> <br>  
+          </span>
+          <span>
+            <input name="NIT" required="" placeholder="NIT proveedor">
+          
+          </span><br>
+          </span>
+     </div>
+            <p class="ayuda">.</p>
+            <hr>     
+     </li>
+      <li>
+                <label class="titulo" id="titulo" for="direccion">DIRECCIÓN<span class="requerido"></span></label>
+      <div>
+      <span>
+                <input id="direccion" name="direccion" value="" type="text" required="" placeholder="Dirección" required="" />
+              
+     </span>
+     <span>
+                <input id="municipio" name="municipio" value="" placeholder="Ciudad" required="" />
+                
+      </span>
+      <span>
+                <input  name="departamanto" placeholder="Departamento" >
+                
+      </span>
+    
+      </div>
+          <p class="ayuda">Asegurate de escribir la direccion correcta</p>
+          <hr>
+      </li>
+      <li >
+          <label class="titulo" id="titulo" for="email">EMAIL</label><br>
+      <div>
+      <span>
+           <input type="email" name="email" required="mail@example.com" placeholder="mail@example.com" required="" />
+      </span>
+      </div>
+          
+          <hr>
+      </li>
+      <li>
+          <label class="titulo" id="titulo" for="telefonofijo">TELEFONO <span class="requerido"></span></label><br>
+      <div>
+      <span>
+          <input id="telefonofijo" type="number" name="telefonofijo" value="" placeholder="Telefono fijo" required="" />
+         
+      </span>
+      <span>
+          <input type="tel" value="" placeholder="Telefono movil" />
+      
+      </span>
+      </div>
+          <p class="ayuda">Solo n&uacutemeros</p>
+          <hr>
+      </li>
+          <center><a href="M.html"> <input type="button" value="Guardar" ></a></center>
+      
+      </ul>
+ </form>
+ </div>
+</body>
+</html>

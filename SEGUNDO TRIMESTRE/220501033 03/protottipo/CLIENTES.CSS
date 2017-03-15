@@ -1,0 +1,43 @@
+body {font: 13px/1.6 arial, sans-serif; }
+body {background-image: url(miguel.jpg);}
+label{display: block; margin: ,5em 000}
+input.focus{border: 2px solid #E6B700}
+input{border-radius: 3px}
+li.hover{background-color: #7B664D}
+ul {list-style: none; margin: 0; padding: 0;}
+#contenedor { background: #F5F8EF; border: 1px solid silver; margin: 1em auto; padding: 1em; width: 768px; opacity: 0.8; border-radius: 15px; }
+span.requerido { font-size: 1.3em; font-weight: bold; color: #C00;}
+h2 {font: normal 2em arial, sans-serif; margin: 0;}
+ul li.botones {border-top: 2px solid #CCC; clear: both; float: none; padding: 1em 0; margin-top: 1em; text-align: left;
+width: 100%;}
+ul li.botones input {font-size: 1em; border-radius: 3px}
+ul li label.titulo {font-weight: bold;}
+ul li p.ayuda {display: none;}
+ul li input {padding: 0.2em;}
+input#apellidos, input#nombres, input#identificacion, input#correoelectronico, input#contrasena {width: 150px;}
+select#genero {width: 120px; border-radius: 3px}
+select#cargo {width: 150px; border-radius: 3px}
+input#contrasena, input#confirmarcontrasena {width: 3000px;}
+ul li.botones:hover {background-color: transparent;}
+ul li input.focus {border: 2px solid #000096;}
+ul li {overflow: hidden;}
+ul li label.titulo {float: left; width: 150px;}
+h2 {margin-bottom: 1em;}
+ul li {border-top: 1px solid #CCC; margin: 0; padding: 1em;}
+ul li.botones {margin: 0;}
+ul li label.titulo {text-align: right; width: 200px;}
+ul li div {margin-left: 200px; overflow: hidden;}
+ul li {position: relative;}
+ul li.hover p.ayuda {display: block; margin: 0.3em; position: absolute; top: 0; right: 0; width: 150px;}
+button{ border-radius: 4px; background-color: #F2F2F2;}
+ul li div span 
+{float: left;
+padding: 0.3em 0;}
+ul li div span.completo 
+{width: 100%;}
+ul li div span.mitad 
+{width: 50%;}
+ul li div span.tercio
+{width: 33%;}
+ul li div span.dostercios
+{width: 66%;}
